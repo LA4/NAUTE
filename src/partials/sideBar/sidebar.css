@@ -13,6 +13,7 @@
     padding: 4px;
     background-color: #fff;
     cursor: pointer;
+    box-shadow:right rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .side-container-child{
     display: flex;
