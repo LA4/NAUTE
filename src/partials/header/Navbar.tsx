@@ -1,8 +1,10 @@
 import { ProfilPicture } from "../../components/Profilpicture/ProfilPicture";
-import { Home } from "../../pages/home/home";
 import { SideBar } from "../sideBar/SideBar";
 import "./navbar.css";
-export function Navbar() {
+type Props = {
+  children: JSX.Element;
+};
+export function Navbar({ children }: Props) {
   return (
     <>
       <div className="nav-container">
@@ -11,7 +13,7 @@ export function Navbar() {
       </div>
       <div className="container-child">
         <SideBar></SideBar>
-        <Home></Home>
+        {children}
       </div>
     </>
   );
