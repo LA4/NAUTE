@@ -1,0 +1,6 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main);
+    padding: 1rem;
+}

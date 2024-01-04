@@ -1,5 +1,6 @@
 import "./login.css";
 import header from "../../../public/assets/images/header.png";
+import { ConnectionForm } from "../../components/form/ConnectionForm";
 
 export function Login() {
   const backgroundStyle = {
@@ -16,14 +17,13 @@ export function Login() {
             <h1>Naute</h1>
             <p>N'oubliez pas de vous souvenir !</p>
           </div>
+
           <div className="login-form-container">
-            <form action="">
-              <label htmlFor="email">Email</label>
-              <input type="email" id="email" />
-              <label htmlFor="password">Mot de passe </label>
-              <input type="password" id="password" />
-              <button>Connection</button>
-            </form>
+            <div className="login-container-tabs">
+              <span className="login-tab">Connection</span>
+              <span className="login-tab">Inscription</span>
+            </div>
+            <ConnectionForm></ConnectionForm>
           </div>
         </div>
       </div>

@@ -8,8 +8,10 @@
     height: 60px;
     width: 100%;
     box-shadow: var(--boxShadow);
-    font-weight: 600;
     z-index: 6;
+}
+.nav-container h1{
+    font-weight: 400;
 }
 .container-child{
     display: flex;

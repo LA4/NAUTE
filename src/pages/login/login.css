@@ -14,12 +14,12 @@
     height: 50%;
 }
 .login-title h1{
-    font-weight:600;
+    font-weight: 700;
     font-size: 6rem;
     color: var(--white);
 }
 .login-title p{
-    font-weight:600;
+    font-weight:700;
     font-size: 2rem;
     color: var(--white);
 }
@@ -28,5 +28,18 @@
     flex-direction: column;
     border-radius: 6px;
 
-    background-color: var(--main);
+}
+.login-container-tabs{
+    display: flex;
+    column-gap: 6px;
+    justify-content:flex-start;
+    width: 100%;
+    cursor: pointer;
+}
+.login-tab{
+    background-color:var(--main);
+    display: flex;
+    padding: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
