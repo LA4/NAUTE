@@ -1,4 +1,5 @@
 .nav-container {
+    position: relative;
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -8,4 +9,9 @@
     width: 100%;
     box-shadow: var(--boxShadow);
     font-weight: 600;
+    z-index: 6;
+}
+.container-child{
+    display: flex;
+
 }

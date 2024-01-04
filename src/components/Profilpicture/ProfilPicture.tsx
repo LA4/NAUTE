@@ -1,11 +1,6 @@
 import { useState } from "react";
-import {
-  AnimatePresence,
-  delay,
-  motion,
-  optimizedAppearDataAttribute,
-} from "framer-motion";
-import LogoDemo from "./assets/LogoDemo";
+import { AnimatePresence, motion } from "framer-motion";
+import LogoDemo from "../../assets/LogoDemo";
 import "./profilpicture.css";
 export function ProfilPicture() {
   const [visible, setVisible] = useState(false);
@@ -21,9 +16,9 @@ export function ProfilPicture() {
         <AnimatePresence>
           {visible && (
             <motion.div
-              initial={{ opacity: 0, y: -60 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -60 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
               transition={{ ease: "linear", duration: 0.2 }}
               className="log"
             >

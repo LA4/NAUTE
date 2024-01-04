@@ -1,0 +1,21 @@
+.side-container{
+    display: flex ;
+    height: 100vh;
+    width: 250px;
+    background-color: var(--lightgrey);
+}
+.oppener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 19px;
+    padding: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.side-container-child{
+    display: flex;
+    width: 100%;
+    padding: 4px;
+}
