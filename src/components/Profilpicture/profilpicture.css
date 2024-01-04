@@ -1,0 +1,22 @@
+.pp-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--lightgrey);
+    box-shadow: var(--boxShadow);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.log{
+    display: flex;
+    background-color: var(--main);
+    padding: 8px;
+    position: absolute;
+    z-index:-1;
+    top: 60px;
+    right: 10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}

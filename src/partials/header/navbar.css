@@ -1,0 +1,11 @@
+.nav-container {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:var(--main) ;
+    height: 60px;
+    width: 100%;
+    box-shadow: var(--boxShadow);
+    font-weight: 600;
+}
