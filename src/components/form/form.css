@@ -1,6 +1,29 @@
 .form-container{
     display: flex;
+    min-width: 400px;
+    gap:  1rem;
     flex-direction: column;
     background-color: var(--main);
     padding: 1rem;
+    border: 4px solid var(--lightgrey);
+    border-radius: 6px;
+}
+.form-items{
+    display: flex;
+    flex-direction: column;
+}
+.form-items label{
+    font-size: .9rem;
+    margin-left: 6px;
+
+}
+.form-items input{
+    border: transparent;
+    padding: 4px;
+    border-radius: 6px;
+}
+.form-items input:focus{
+    outline: transparent;
+    box-shadow: inset rgba(94, 120, 138, 0.219) 2px 2px 5px;
+    border-bottom: 4px solid var(--white);
 }

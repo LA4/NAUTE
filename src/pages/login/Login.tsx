@@ -1,5 +1,5 @@
 import "./login.css";
-import header from "../../../public/assets/images/header.png";
+import header from "/assets/images/header.png";
 import { ConnectionForm } from "../../components/form/ConnectionForm";
 
 export function Login() {
