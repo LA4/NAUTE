@@ -1,12 +1,17 @@
 .collection-container{
     display: flex;
+    height: auto;
+    gap: 1.5rem;
+}
+.collection-item-container{
+    display: flex;
     height: 250px;
     width: 200px;
     box-shadow: var(--boxShadow);
     border-radius: 6px;
     cursor: pointer;
     transition: .3s;
-}.collection-container:hover{
+}.collection-item-container:hover{
     transform: scale(1.01);
 }
 .title-collection{

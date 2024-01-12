@@ -1,4 +1,5 @@
 import { NauteContainer } from "../../partials/nauteContainer/nautecontainer";
+
 import "./home.css";
 import header from "/assets/images/header.png";
 export const Home = () => {

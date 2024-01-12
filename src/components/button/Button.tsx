@@ -8,6 +8,8 @@ type Props = {
   fontWeight?: string | undefined;
   active?: boolean | undefined;
   props?: Props;
+  type?: "submit" | "reset" | "button" | undefined;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
 };
 
 export function Button({
@@ -18,6 +20,8 @@ export function Button({
   active,
   fontSize,
   fontWeight,
+  type,
+  onClick,
   ...props
 }: Props) {
   const buttonStyle = {
@@ -31,10 +35,11 @@ export function Button({
     <>
       <button
         {...props}
-        type="button"
+        type={type}
         style={buttonStyle}
         className="button-container"
         disabled={!active}
+        onClick={onClick}
       >
         {children}
       </button>

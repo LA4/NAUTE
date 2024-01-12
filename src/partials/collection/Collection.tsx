@@ -1,8 +1,13 @@
 import "./collection.css";
-export function Collection() {
+type collectionProps = {
+  children?: React.ReactNode;
+};
+export function Collection({ children }: collectionProps) {
   return (
     <div className="collection-container">
-      <span className="title-collection">Titre de collection</span>
+      <div className="collection-item-container">
+        <span className="title-collection">{children}</span>
+      </div>
     </div>
   );
 }

@@ -12,7 +12,9 @@
   list-style: none;
   padding: 6px 16px;
   transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
-  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--blue);
 }
 
